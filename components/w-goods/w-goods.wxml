@@ -1,0 +1,7 @@
+<!--components/w-goods/w-goods.wxml-->
+<!-- 5 商品展示数据 -->
+<view class="goods">
+  <block wx:for="{{goods}}" wx:key="index">
+    <w-goods-item class="goods-item" item="{{item}}"></w-goods-item>
+  </block>
+</view>
